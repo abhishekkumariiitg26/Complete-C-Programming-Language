@@ -9,5 +9,7 @@ int main(){
     double c=2.215487963;
     char d ='A';
     printf("%d %f %c",a,b,d);
+    short s=32768; // depends on range on the circle
+    printf("\n%d",s);
     return 0;
 }
