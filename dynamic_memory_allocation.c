@@ -2,6 +2,8 @@
 #include <stdlib.h>
 int main()
 {
+    // why we have used (int*)malloc or (int*)calloc? 
+    // because they return void pointer and we have to typecast it to int * pointer
     int n;
     printf("Enter the number of element you want in the dynamic array: ");
     scanf("%d", &n);
